@@ -5,7 +5,7 @@ import draftRouter from "./routes/draft";
 const app = express();
 //app.use(cors());
 app.use(cors({
-  origin: 'https://soccer-wine.vercel.app/'
+  origin: 'https://soccer-wine.vercel.app'
 }));
 app.use(express.json());
 

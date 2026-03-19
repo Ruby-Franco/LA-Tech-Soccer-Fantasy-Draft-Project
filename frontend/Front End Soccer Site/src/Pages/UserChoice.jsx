@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './UserChoice.css';
 //const API_URL = 'http://localhost:3000/draft';
-const API_URL = import.meta.env.VITE_API_URL + '/draft';
+const API_URL = `${import.meta.env.VITE_API_URL}/draft`;
 
 function UserChoice(){
 
